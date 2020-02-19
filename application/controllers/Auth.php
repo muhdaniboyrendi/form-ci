@@ -27,9 +27,7 @@
                     'status' => $this->input->post('status'),
                 ];
                 $this->db->insert('users', $data);
-                $this->session->set_flashdata('messege', '<div class="alert alert-success" role="alert">
-                                                            Your Account has been Succesfully Created
-                                                            </div>');
+                $this->session->set_flashdata('messege', '');
                 redirect('auth');
             }
         }

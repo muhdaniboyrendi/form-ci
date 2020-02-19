@@ -77,10 +77,3 @@
         <!-- end submit -->
     </form>
 </div>
-<!-- alert saat data yang diinputkan sudah masuk ke database -->
-<?php
-echo "<script>
-        alert('Your Account has been Successfully Created');
-    </script>"
-?>
-<!-- end alert -->
